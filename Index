@@ -1,0 +1,44 @@
+<html>
+    <head>
+        </head>
+        <style>
+            h1{
+                color:blanchedalmond;
+            }
+            p {
+                color:purple
+            }
+            body {
+                font-family: 'Arial', monospace;
+            }
+            /* this is a css comment */
+            .foo{
+            color:green
+            font-size: 24pt;
+            }
+            .goo {
+            color:salmon
+            }
+
+            /*this is an id selector */
+            #moo {
+                color:red
+            }
+
+            <!-- this is an html comment-->
+        </style>
+        <body>
+            <h1 id="moo">hello world</h1>
+            <p class="foo">this is my paragraph</p>
+            <p class="goo">my favorite ice cream is chocolate</p>
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+            <ol>
+                <li>item1</li>
+            </ol>
+        </body>
+    </head>
+</html>
